@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DesignApp</string>
+    <string name="backtofirst">backtofirst</string>
+    <string name="myshatel">MyShatel</string>
+    <string name="login_text">ورود به حساب کاربری شاتل</string>
+    <string name="username_text">شناسه کاربری یا کد اشتراک</string>
+    <string name="password_text">رمز عبور</string>
+    <string name="btn_login_text">وارد شوید</string>
+    <string name="forget_password_text">فراموشی رمز</string>
+    <string name="logout">logout</string>
+    <string name="user_name">username</string>
+    <string name="edit_profile">edit profile</string>
+    <string name="change_password">ChangePassword</string>
+    <string name="showspeed">showspeed</string>
+    <string name="speed_text">speed text</string>
+</resources>
