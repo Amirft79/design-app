@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bottom_sheet"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="16dp"
+    android:background="?attr/selectableItemBackground"
+    android:foreground="?attr/selectableItemBackground"
+    android:elevation="16dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn_technical_support"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:foreground="?attr/selectableItemBackground"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_baseline_settings_applications_24"
+            app:layout_constraintBottom_toTopOf="@id/btn_sales_support"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </androidx.appcompat.widget.AppCompatImageButton>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn_sales_support"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:foreground="?attr/selectableItemBackground"
+            android:src="@drawable/ic_baseline_point_of_sale_24"
+            app:layout_constraintBottom_toTopOf="@id/btn_sales_call"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_technical_support"
+            tools:ignore="SpeakableTextPresentCheck">
+        </androidx.appcompat.widget.AppCompatImageButton>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn_sales_call"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:foreground="?attr/selectableItemBackground"
+
+            android:background="?attr/selectableItemBackground"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:src="@drawable/ic_baseline_call_24"
+            app:layout_constraintTop_toBottomOf="@+id/btn_sales_support"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </androidx.appcompat.widget.AppCompatImageButton>
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@id/btn_sales_call"
+            android:text="@string/back_page" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

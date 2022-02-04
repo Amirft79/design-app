@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_view"
+    app:startDestination="@id/firstFragmemt">
+
+    <fragment
+        android:id="@+id/firstFragmemt"
+        android:name="com.example.co.designapp.FirstFragmemt"
+        android:label="fragment_first_fragmemt"
+        tools:layout="@layout/fragment_first_fragmemt" >
+        <action
+            android:id="@+id/action_firstFragmemt_to_blankFragment"
+            app:destination="@id/blankFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_firstFragmemt_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.co.designapp.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" >
+        <action
+            android:id="@+id/action_blankFragment_to_firstFragmemt"
+            app:destination="@id/firstFragmemt"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim" />
+        <argument
+            android:name="number"
+            app:argType="integer"
+            android:defaultValue="1" />
+        <argument
+            android:name="buttonname"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="not_found" />
+        <action
+            android:id="@+id/action_blankFragment_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.co.designapp.MainActivity"
+        android:label="activity_main"
+        app:action="android.intent.action.VIEW"
+        app:data="https://example.com"
+        app:targetPackage="${applicationId}"
+        tools:layout="@layout/activity_main" />
+</navigation>

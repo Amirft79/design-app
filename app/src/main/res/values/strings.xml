@@ -13,4 +13,12 @@
     <string name="change_password">ChangePassword</string>
     <string name="showspeed">showspeed</string>
     <string name="speed_text">speed text</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_ftgmanet">First_Ftgmanet</string>
+    <string name="go_to_second">go to second</string>
+    <string name="home">home</string>
+    <string name="group">group</string>
+    <string name="back_to_home">back to home</string>
+    <string name="back_page">بازگشت به صفحه اصلی</string>
 </resources>
