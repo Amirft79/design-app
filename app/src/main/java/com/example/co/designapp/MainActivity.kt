@@ -80,9 +80,6 @@ class MainActivity : AppCompatActivity() {
         binding.btnBack.setOnClickListener {
             ShowToast("back to first Activity", 2000)
         }
-        binding.btnChangePassword.setOnClickListener {
-            composeEmail(arrayOf("amirhosseine2013@gmail.com"), "connect with us")
-        }
 
         binding.cardFour.setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW)
@@ -148,18 +145,4 @@ class MainActivity : AppCompatActivity() {
         } else true
     }
 
-
-
-
-
-    private fun composeEmail(addresses: Array<String>, subject: String ) {
-        val intent = Intent(Intent.ACTION_SEND).apply {
-            data=Uri.parse("mailto:")
-            putExtra(Intent.EXTRA_EMAIL, addresses)
-            putExtra(Intent.EXTRA_SUBJECT, subject)
-        }
-        if (intent.resolveActivity(packageManager) != null) {
-            startActivity(intent)
-        }
-    }
 }

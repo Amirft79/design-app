@@ -22,7 +22,6 @@ class NavigationComponentActivity : AppCompatActivity() {
     lateinit var drawerlayout:DrawerLayout
     lateinit var appbarconfiguration:AppBarConfiguration
     lateinit var navhost:NavHostFragment
-
     lateinit var listener:NavController.OnDestinationChangedListener
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -43,9 +42,6 @@ class NavigationComponentActivity : AppCompatActivity() {
         badge.number = 99
         listener=NavController.OnDestinationChangedListener { controller, destination, arguments ->
         }
-
-
-
 
     }
 

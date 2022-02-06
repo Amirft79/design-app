@@ -13,9 +13,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DesignApp">
         <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
-        <activity
             android:name=".NavigationComponentActivity"
             android:exported="false" />
         <activity
