@@ -14,7 +14,9 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.co.designapp.databinding.ActivityNavigationComponentBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class NavigationComponentActivity : AppCompatActivity() {
 
     lateinit var binding:ActivityNavigationComponentBinding

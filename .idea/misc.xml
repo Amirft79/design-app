@@ -5,8 +5,10 @@
       <map>
         <entry key="..\:/NewAndroidpj/app/src/main/res/drawable/back_g.xml" value="0.1111111111111111" />
         <entry key="..\:/NewAndroidpj/app/src/main/res/drawable/button_forget_password.xml" value="0.13046875" />
+        <entry key="..\:/NewAndroidpj/app/src/main/res/drawable/gradient.xml" value="0.1095" />
         <entry key="..\:/NewAndroidpj/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.14921875" />
         <entry key="..\:/NewAndroidpj/app/src/main/res/drawable/ic_launcher_background.xml" value="0.13046875" />
+        <entry key="..\:/NewAndroidpj/app/src/main/res/drawable/ic_person_24.xml" value="0.1095" />
         <entry key="..\:/NewAndroidpj/app/src/main/res/drawable/login_background_design.xml" value="0.13046875" />
         <entry key="..\:/NewAndroidpj/app/src/main/res/drawable/login_button.xml" value="0.10347222222222222" />
         <entry key="..\:/NewAndroidpj/app/src/main/res/drawable/login_text_shape.xml" value="0.13046875" />
@@ -19,6 +21,8 @@
         <entry key="..\:/NewAndroidpj/app/src/main/res/layout/bottem_sheet_callus.xml" value="0.14666666666666667" />
         <entry key="..\:/NewAndroidpj/app/src/main/res/layout/fragment_blank.xml" value="0.13846153846153847" />
         <entry key="..\:/NewAndroidpj/app/src/main/res/layout/fragment_first_fragmemt.xml" value="0.15" />
+        <entry key="..\:/NewAndroidpj/app/src/main/res/layout/fragment_gallery.xml" value="0.11858108108108108" />
+        <entry key="..\:/NewAndroidpj/app/src/main/res/layout/item_unsplash.xml" value="0.11858108108108108" />
         <entry key="..\:/NewAndroidpj/app/src/main/res/layout/login_layout.xml" value="0.14666666666666667" />
         <entry key="..\:/NewAndroidpj/app/src/main/res/layout/self_layout.xml" value="0.1" />
         <entry key="..\:/NewAndroidpj/app/src/main/res/menu/bottem_menu.xml" value="0.15" />

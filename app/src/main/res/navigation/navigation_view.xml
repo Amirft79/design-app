@@ -50,4 +50,9 @@
         app:data="https://example.com"
         app:targetPackage="${applicationId}"
         tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.co.designapp.ui.gallery.GalleryFragment"
+        android:label="fragment_gallery"
+        tools:layout="@layout/fragment_gallery" />
 </navigation>
